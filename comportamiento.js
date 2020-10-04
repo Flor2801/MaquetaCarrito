@@ -53,6 +53,8 @@ eliminarCel.onclick = () => {
     tarjetaCel.classList.add("hidden")
     celularesTotales.textContent = 0
     selectorCel.value = 0
+
+    actualizarSubtotal()
 }
 
 eliminarPc.onclick = () => {
@@ -60,6 +62,9 @@ eliminarPc.onclick = () => {
     tarjetaPc.classList.add("hidden")
     pcsTotales.textContent = 0
     selectorPcs.value = 0
+
+    actualizarSubtotal()
+
 }
 
 
@@ -68,9 +73,12 @@ eliminarPc.onclick = () => {
 selectorCel.onclick = () => {
     const precioCel = document.getElementById("precio-cel")
     const subtotal = document.getElementById("subtotal")
-celularesTotales.textContent = selectorCel.value*10000
+celularesTotales.textContent = selectorCel.value*5000
 subtotal.textContent = celularesTotales.textContent
+
+actualizarSubtotal()
 }
+
 
 
 selectorPcs.onclick = () => {
@@ -79,7 +87,19 @@ selectorPcs.onclick = () => {
     const pcsTotales = document.getElementById("total-pcs")
 pcsTotales.textContent = selectorPcs.value*30000
 subtotal.textContent = pcsTotales.textContent
+
+actualizarSubtotal()
 }
+
+
+//////////////////////   SUBTOTAL CARRITO   /////////////////////////
+
+actualizarSubtotal = () => {
+    subtotal.textContent = selectorCel.value*5000 + selectorPcs.value*30000
+    
+  
+}
+
 
 
 
