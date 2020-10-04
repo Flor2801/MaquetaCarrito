@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>PRUEBAS-RAPIDAS</title>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="uno">CELULAR <span id="precio-cel">$10.000</span>
+            <button id="compra-cel">Comprar</button>
+        </div>
+        <div id="dos">NOTEBOOK
+            <button id="compra-pc">Comprar</button>
+        </div>
+        <div id="tres">CAMARA
+            <button id="compra-cam">Comprar</button>
+        </div>
+        <div id="cuatro">CONSOLA
+            <button id="compra-play">Comprar</button>
+        </div>
+    </div>
+
+    <div class="checkout">CARRITO
+
+    <div id="carrito">
+
+        <div class="tarjeta-cel hidden" id="tarjeta-cel">Compraste un CELULAR
+            <input type="number" id="value-cel" min=0>
+            <button id="trash-cel">ELIMINAR</button>
+            <div id="total-cel">0</div>
+        </div>
+        <div class="tarjeta-pc hidden" id="tarjeta-pc">Compraste una NOTEBOOK
+            <input type="number" id="value-pc" min=0>
+            <button id="trash-pc">ELIMINAR</button>
+            <div id="total-pc">0</div>
+          
+        </div>
+        <div class="tarjeta-cam hidden" id="tarjeta-cam">Compraste un CAMARA
+            <button>ELIMINAR</button>
+        </div>
+        <div class="tarjeta-play hidden" id="tarjeta-play">Compraste un CONSOLA
+            <button>ELIMINAR</button>
+        </div>
+
+        
+    </div>
+    <div class="subtotal">SUBTOTAL:<span id="subtotal">0</span></div>
+   
+</div>
+
+
+    <script src="comportamiento.js"></script>
+
+</body>
+
+</html>

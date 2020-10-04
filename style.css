@@ -1,0 +1,128 @@
+body {
+    display: flex;
+    height: 1500px;
+    background-color: #fafafa;
+}
+
+.container {
+    width: 900px;
+    height: 300px;
+    background-color: thistle;
+    display: flex;
+}
+
+#uno, #dos, #tres, #cuatro {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+
+
+}
+#uno {
+    background-color: rgb(50, 182, 205);
+
+}
+
+#dos {
+    background-color: yellowgreen;
+
+}
+
+#tres {
+
+    background-color: rgb(205, 50, 184);
+}
+
+
+#cuatro {
+    background-color: rgb(205, 202, 50);
+}
+
+
+button {
+    display: block;
+ 
+}
+
+
+.checkout {
+    margin-left: 20px;
+    width: 300px;
+    height: 600px;
+    background-color: thistle;
+    display: flex;
+flex-direction: column;
+    padding-top: 10px;
+    position: relative;
+
+}
+
+.subtotal {
+    padding: 10px;
+    background-color: white;
+    position: absolute;
+    bottom: 50px;
+    width: 300px;
+ 
+}
+
+#subtotal {
+    margin-left: 150px;
+}
+
+.tarjeta-cel, .tarjeta-pc, .tarjeta-cam, .tarjeta-play {
+    width: 200px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+
+.tarjeta-cel {
+    background-color: rgb(50, 182, 205);
+}
+
+
+.tarjeta-pc {
+    background-color: yellowgreen;
+}
+
+
+.tarjeta-cam {
+    background-color: rgb(205, 50, 184);
+}
+
+
+.tarjeta-play {
+    background-color: rgb(205, 202, 50);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
