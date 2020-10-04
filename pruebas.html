@@ -13,47 +13,55 @@
 <body>
 
     <div class="container">
-        <div id="uno">CELULAR <span id="precio-cel">$10.000</span>
+        <div id="uno">CELULAR 
+            <span id="precio-cel">$10.000</span>
             <button id="compra-cel">Comprar</button>
         </div>
         <div id="dos">NOTEBOOK
+            <span id="precio-pc">$30.000</span>
             <button id="compra-pc">Comprar</button>
         </div>
         <div id="tres">CAMARA
+            <span id="precio-cam">$150.000</span>
             <button id="compra-cam">Comprar</button>
         </div>
         <div id="cuatro">CONSOLA
+            <span id="precio-play">$80.000</span>
             <button id="compra-play">Comprar</button>
         </div>
     </div>
 
     <div class="checkout">CARRITO
 
-    <div id="carrito">
+        <div id="carrito">
 
-        <div class="tarjeta-cel hidden" id="tarjeta-cel">Compraste un CELULAR
-            <input type="number" id="value-cel" min=0>
-            <button id="trash-cel">ELIMINAR</button>
-            <div id="total-cel">0</div>
-        </div>
-        <div class="tarjeta-pc hidden" id="tarjeta-pc">Compraste una NOTEBOOK
-            <input type="number" id="value-pc" min=0>
-            <button id="trash-pc">ELIMINAR</button>
-            <div id="total-pc">0</div>
-          
-        </div>
-        <div class="tarjeta-cam hidden" id="tarjeta-cam">Compraste un CAMARA
-            <button>ELIMINAR</button>
-        </div>
-        <div class="tarjeta-play hidden" id="tarjeta-play">Compraste un CONSOLA
-            <button>ELIMINAR</button>
-        </div>
+            <div class="tarjeta-cel hidden" id="tarjeta-cel">Compraste un CELULAR
+                <input type="number" id="value-cel" min=0>
+                <button id="trashCel">ELIMINAR</button>
+                <div id="total-cel">0</div>
+            </div>
+            <div class="tarjeta-pc hidden" id="tarjeta-pc">Compraste una NOTEBOOK
+                <input type="number" id="value-pc" min=0>
+                <button id="trashPc">ELIMINAR</button>
+                <div id="total-pcs">0</div>
+            </div>
+            <div class="tarjeta-cam hidden" id="tarjeta-cam">Compraste un CAMARA
+                <input type="number" id="value-cam" min=0>
+                <button id="trash-cam">ELIMINAR</button>
+                <div id="total-cam">0</div>
+            </div>
+            <div class="tarjeta-play hidden" id="tarjeta-play">Compraste un CONSOLA
+                <input type="number" id="value-play" min=0>
+                <button id="trash-play">ELIMINAR</button>
+                <div id="total-play">0</div>
+            </div>
 
-        
+
+        </div>
+        <div class="subtotal">SUBTOTAL:<span id="subtotal">0</span></div>
+        <button id="finalizar">FINALIZAR</button>
+
     </div>
-    <div class="subtotal">SUBTOTAL:<span id="subtotal">0</span></div>
-   
-</div>
 
 
     <script src="comportamiento.js"></script>

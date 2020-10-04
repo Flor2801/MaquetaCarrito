@@ -70,6 +70,14 @@ flex-direction: column;
     margin-left: 150px;
 }
 
+
+#finalizar {
+    position: absolute;
+    bottom: 20px;
+    width: 100px;
+    background-color: yellowgreen;
+}
+
 .tarjeta-cel, .tarjeta-pc, .tarjeta-cam, .tarjeta-play {
     width: 200px;
     height: 100px;
