@@ -11,6 +11,7 @@
 </head>
 
 <body>
+   
 
     <div class="container">
         <div id="uno">CELULAR 
@@ -32,25 +33,26 @@
     </div>
 
     <div class="checkout">CARRITO
+        
 
         <div id="carrito">
 
-            <div class="tarjeta-cel hidden" id="tarjeta-cel">Compraste un CELULAR
+            <div class="tarjeta-cel hidden tarjeta" id="tarjeta-cel">Compraste un CELULAR
                 <input type="number" id="value-cel" min=0>
                 <button id="trashCel">ELIMINAR</button>
                 <div id="total-cel">0</div>
             </div>
-            <div class="tarjeta-pc hidden" id="tarjeta-pc">Compraste una NOTEBOOK
+            <div class="tarjeta-pc hidden tarjeta" id="tarjeta-pc">Compraste una NOTEBOOK
                 <input type="number" id="value-pc" min=0>
                 <button id="trashPc">ELIMINAR</button>
                 <div id="total-pcs">0</div>
             </div>
-            <div class="tarjeta-cam hidden" id="tarjeta-cam">Compraste un CAMARA
+            <div class="tarjeta-cam hidden tarjeta" id="tarjeta-cam">Compraste un CAMARA
                 <input type="number" id="value-cam" min=0>
                 <button id="trash-cam">ELIMINAR</button>
                 <div id="total-cam">0</div>
             </div>
-            <div class="tarjeta-play hidden" id="tarjeta-play">Compraste un CONSOLA
+            <div class="tarjeta-play hidden tarjeta" id="tarjeta-play">Compraste un CONSOLA
                 <input type="number" id="value-play" min=0>
                 <button id="trash-play">ELIMINAR</button>
                 <div id="total-play">0</div>
@@ -60,7 +62,24 @@
         </div>
         <div class="subtotal">SUBTOTAL:<span id="subtotal">0</span></div>
         <button id="finalizar">FINALIZAR</button>
+        <button id="vaciar">VACIAR</button>
 
+    </div>
+
+
+    <div class="pagar">
+    OPCIONES DE PAGO <br>
+    <div class="vistaTotales" id="vistaTotales"><p> Mostrando <span id="productosVisibles">0</span> de <span id="productosTotales">0</span></p></div>
+    <input type="checkbox" id="eft">Efectivo <br>
+    <input type="checkbox" id="tc">Tarjeta <span id="text-tc">0</span><br>
+    <input type="checkbox" id="desc">Descuento <span id="text-desc">0</span> <br>
+    <input type="checkbox" id="envio">Envio<span id="text-envio">0</span> <br>
+    <BR>
+        <br>
+        <br>
+    Subtotal: <span id="subtotal-checkout">0</span> <br>
+    
+    <p id="totalText">TOTAL:</p> <span  id="total-checkout">0</span>
     </div>
 
 

@@ -61,9 +61,8 @@ flex-direction: column;
     padding: 10px;
     background-color: white;
     position: absolute;
-    bottom: 50px;
+    bottom: 80px;
     width: 300px;
- 
 }
 
 #subtotal {
@@ -73,9 +72,20 @@ flex-direction: column;
 
 #finalizar {
     position: absolute;
+    bottom: 50px;
+    width: 200px;
+    background-color: red;
+    margin-left: 50px;
+
+}
+
+#vaciar {
+    position: absolute;
     bottom: 20px;
-    width: 100px;
+    width: 200px;
     background-color: yellowgreen;
+    margin-left: 50px;
+  
 }
 
 .tarjeta-cel, .tarjeta-pc, .tarjeta-cam, .tarjeta-play {
@@ -105,32 +115,22 @@ flex-direction: column;
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.pagar {
+    width: 600px;
+    height: 200px;
+    background-color:pink;
+    position: absolute;
+    margin: 350px 0px 0px 50px;
+}
 
 .hidden {
     display: none;
 }
+
+.selected {
+    display: block;
+}
+
+
+
+
